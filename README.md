@@ -3,6 +3,30 @@
 ## ✈️ Overview  
 This is a simple, responsive travel website built using HTML, CSS, and JavaScript. It features an attractive UI, engaging animations, and an interactive user experience to showcase travel destinations and services.  
 
+## 📸 Application Screenshots
+
+Here are some previews of the Plant AI Engine interface in action:
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/Chatur07/Plant-AI-Engine/blob/main/demo_images/ss1.png" width="600" alt="Homepage Screenshot"/>
+    </td>
+    <td align="center">
+      <img src="https://github.com/Chatur07/Plant-AI-Engine/blob/main/demo_images/ss2.png" width="600" alt="Login Page Screenshot"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/Chatur07/Plant-AI-Engine/blob/main/demo_images/ss3.png" width="600" alt="Disease Detection Screenshot"/>
+    </td>
+    <td align="center">
+      <img src="https://github.com/Chatur07/Plant-AI-Engine/blob/main/demo_images/ss4.png" width="600" alt="Borrow Essentials Screenshot"/>
+    </td>
+  </tr>
+</table>
+
+
 ## 🎨 Features  
 ✅ Fully responsive design  
 ✅ Modern UI with smooth animations  
