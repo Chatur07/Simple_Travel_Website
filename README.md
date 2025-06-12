@@ -5,8 +5,6 @@ This is a simple, responsive travel website built using HTML, CSS, and JavaScrip
 
 ## 📸 Application Screenshots
 
-Here are some previews of the Plant AI Engine interface in action:
-
 <table>
   <tr>
     <td align="center">
@@ -56,7 +54,7 @@ Contributions are welcome! Feel free to fork this repository and submit a pull r
 
 ## Show support   
    ⭐ Star the repository 
-   🙌 Follow on github & Linkedin
+   🤝 **Follow on [GitHub](https://github.com/Chatur07)** and [LinkedIn](www.linkedin.com/in/vikhyat-chaturvedi-678308252)
   
 
 ---
