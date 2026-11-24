@@ -1,5 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;1,100;1,300&display=swap");
 
+:root {
+  --deep-mountain-blue: #173b63;
+  --sunrise-amber: #f4a340;
+  --warm-cloud-white: #fff8ed;
+  --charcoal-slate: #263746;
+  --sky-blue: #dceaf5;
+}
+
 * {
   font-family: "Poppins", sans-serif;
   margin: 0;
@@ -18,29 +26,35 @@ html {
   scroll-padding-top: 5rem;
 }
 
+body {
+  background: var(--warm-cloud-white);
+  color: var(--charcoal-slate);
+}
+
 section {
   padding: 5rem 9%;
 }
 .btn {
   margin-top: 1rem;
   display: inline-block;
-  border: 0.2rem solid black;
-  color: black;
+  border: 0.2rem solid var(--sunrise-amber);
+  color: var(--deep-mountain-blue);
   cursor: pointer;
-  background: none;
+  background: var(--sunrise-amber);
   font-size: 1.7rem;
   padding: 1rem 3rem;
   border-radius: 40px;
 }
 .btn:hover {
-  background: black;
-  color: white;
+  background: var(--deep-mountain-blue);
+  border-color: var(--deep-mountain-blue);
+  color: var(--warm-cloud-white);
 }
 .heading {
   text-align: center;
   margin-bottom: 2.5rem;
-  font-size: 4rem;
-  color: #10221b;
+  font-size: 10rem;
+  color: var(--deep-mountain-blue);
 }
 .header {
   position: fixed;
@@ -53,13 +67,13 @@ section {
   align-items: center;
 }
 .header.active {
-  background: #fff;
+  background: var(--warm-cloud-white);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
 .header .logo {
   margin-right: auto;
   font-size: 2.5rem;
-  color: black;
+  color: var(--deep-mountain-blue);
   font-weight: bolder;
 }
 .wrapper1 {
@@ -71,11 +85,11 @@ section {
   max-width: 550px;
   padding: 30px;
   border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 10px rgba(23, 59, 99, 0.2);
 }
 
 .wrapper1 .title1 h1 {
-  color: green;
+  color: var(--deep-mountain-blue);
   text-align: center;
   margin-bottom: 25px;
   font-size: 3.5rem;
@@ -106,9 +120,9 @@ section {
   margin: 10px 0;
   background: transparent;
   border: 0px;
-  border-bottom: 2px solid #5f66618f;
+  border-bottom: 2px solid rgba(38, 55, 70, 0.55);
   padding: 10px;
-  color: black;
+  color: var(--charcoal-slate);
   width: 100%;
 }
 
@@ -118,13 +132,13 @@ section {
 .msg .btn1 {
   margin-top: 1rem;
   display: inline-block;
-  border: 0.2rem solid green;
-  color: black;
+  border: 0.2rem solid var(--sunrise-amber);
+  color: var(--deep-mountain-blue);
   cursor: pointer;
   font-size: 1.7rem;
   padding: 1rem 3rem;
   border-radius: 40px;
-  background: none;
+  background: var(--sunrise-amber);
 }
 .btn1 button[type="submit"] {
   background-color: transparent;
@@ -133,21 +147,21 @@ section {
 }
 
 i {
-  color: green;
+  color: var(--sunrise-amber);
 }
 
 .header .navbar a {
   margin-left: 2rem;
   font-size: 1.7rem;
-  color: black;
+  color: var(--deep-mountain-blue);
 }
 .header .navbar a:hover {
-  color: green;
+  color: var(--sunrise-amber);
 }
 .header .navbar #nav-close {
   font-size: 5rem;
   cursor: pointer;
-  color: black;
+  color: var(--deep-mountain-blue);
   display: none;
 }
 .header .icons a,
@@ -155,12 +169,12 @@ i {
   font-size: 2.5rem;
   margin-left: 2rem;
   cursor: pointer;
-  color: black;
+  color: var(--deep-mountain-blue);
 }
 
 .header.icons a:hover,
 .header.icons div:hover {
-  color: green;
+  color: var(--sunrise-amber);
 }
 .header #menu-btn {
   display: none;
@@ -172,7 +186,7 @@ i {
   left: 0;
   height: 100%;
   width: 100%;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(23, 59, 99, 0.94);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -189,41 +203,41 @@ i {
   top: 1.5rem;
   right: 2.5rem;
   cursor: pointer;
-  color: white;
+  color: var(--warm-cloud-white);
   font-size: 5rem;
 }
 #close-search:hover {
-  color: green;
+  color: var(--sunrise-amber);
 }
 
 form {
   width: 90vw;
   margin: 0 2rem;
   padding-bottom: 2rem;
-  border-bottom: 0.2rem solid white;
+  border-bottom: 0.2rem solid var(--warm-cloud-white);
   display: flex;
   align-items: center;
 }
 form input {
   width: 100%;
   font-size: 2rem;
-  color: white;
+  color: var(--warm-cloud-white);
   text-transform: none;
   background: none;
   padding-right: 2rem;
 }
 
 form input::placeholder {
-  color: #aaa;
+  color: var(--sky-blue);
 }
 
 form label {
   font-size: 3rem;
   cursor: pointer;
-  color: white;
+  color: var(--warm-cloud-white);
 }
 form label:hover {
-  color: green;
+  color: var(--sunrise-amber);
 }
 .home {
   padding: 0;
@@ -243,17 +257,17 @@ form label:hover {
 }
 .home .content span {
   font-size: 4rem;
-  color: black;
+  color: var(--charcoal-slate);
 }
 .home .content h3 {
   font-size: 6rem;
-  color: green;
+  color: var(--deep-mountain-blue);
   padding-top: 0.5rem;
   text-transform: uppercase;
 }
 .home .content p {
   line-height: 2;
-  color: black;
+  color: var(--charcoal-slate);
   font-size: 1.5rem;
   padding: 1rem 0;
 }
@@ -274,24 +288,21 @@ form label:hover {
   width: 20rem;
   border-radius: 50%;
   margin-bottom: 1rem;
-  box-shadow: 1px 2px 6px 3px grey;
+  box-shadow: 0 0.5rem 1.5rem rgba(23, 59, 99, 0.18);
 }
 .category .box-container .box h3 {
   font-size: 2rem;
-  background: linear-gradient(to right, #2545fc,
-  #0de3eb, #100a2e, #eedd44);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  color: var(--deep-mountain-blue);
 }
 
 .category .box-container .box p {
   font-size: 1.5rem;
-  color: #10221b;
+  color: var(--charcoal-slate);
   padding: 1rem 0;
   line-height: 2;
 }
 .packages {
-  background: #eee;
+  background: var(--warm-cloud-white);
 }
 
 .packages .box-container {
@@ -304,28 +315,28 @@ form label:hover {
 
 .packages .box-container .box {
   text-align: center;
-  background: #fff;
-  border: 0.2rem solid #10221b;
+  background: var(--sky-blue);
+  border: 0.2rem solid var(--deep-mountain-blue);
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   border-radius: 0.5rem;
 }
 
 .packages .box-container .box:hover {
-  background: #10221b;
+  background: var(--deep-mountain-blue);
 }
 
 .packages .box-container .box:hover .content > * {
-  color: #fff;
+  color: var(--warm-cloud-white);
 }
 
 .packages .box-container .box:hover .btn {
-  border-color: #fff;
+  border-color: var(--sunrise-amber);
 }
 
 .packages .box-container .box:hover .btn:hover {
-  background: #fff;
-  color: #10221b;
+  background: var(--sunrise-amber);
+  color: var(--deep-mountain-blue);
 }
 
 .packages .box-container .box .image {
@@ -350,19 +361,19 @@ form label:hover {
 
 .packages .box-container .box .content h3 {
   font-size: 2rem;
-  color: #10221b;
+  color: var(--deep-mountain-blue);
 }
 
 .packages .box-container .box .content p {
   font-size: 1.5rem;
-  color: #10221b;
+  color: var(--charcoal-slate);
   padding: 1rem 0;
   line-height: 2;
 }
 
 .packages .box-container .box .content .price {
   font-size: 2rem;
-  color: #219150;
+  color: var(--deep-mountain-blue);
 }
 
 .footer {
@@ -370,11 +381,11 @@ form label:hover {
       linear,
       left top,
       left bottom,
-      from(rgba(0, 0, 0, 0.5)),
-      to(rgba(0, 0, 0, 0.5))
+      from(rgba(23, 59, 99, 0.88)),
+      to(rgba(23, 59, 99, 0.88))
     ),
     url(../images/footer-bg.jpg) no-repeat;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(rgba(23, 59, 99, 0.88), rgba(23, 59, 99, 0.88)),
     url(../images/footer.jpg) no-repeat;
   background-size: cover;
   background-position: center;
@@ -392,23 +403,23 @@ form label:hover {
 .footer .box-container .box h3 {
   font-size: 2rem;
   padding: 1.5rem 0;
-  color: #fff;
+  color: var(--warm-cloud-white);
 }
 
 .footer .box-container .box a {
   display: block;
   font-size: 1.4rem;
-  color: #fff;
+  color: var(--warm-cloud-white);
   padding: 1rem 0;
 }
 
 .footer .box-container .box a i {
-  color: #219150;
+  color: var(--sunrise-amber);
   padding-right: 0.5rem;
 }
 
 .footer .box-container .box a:hover {
-  color: #219150;
+  color: var(--sunrise-amber);
 }
 
 .footer .box-container .box a:hover i {
@@ -421,11 +432,11 @@ form label:hover {
   padding: 1rem;
   padding-top: 2.5rem;
   font-size: 2rem;
-  color: #fff;
+  color: var(--warm-cloud-white);
 }
 
 .footer .credit span {
-  color: #219150;
+  color: var(--sunrise-amber);
 }
 
 @media (max-width: 1200px) {
@@ -464,7 +475,7 @@ form label:hover {
     position: fixed;
     top: 0;
     left: -110%;
-    background: white;
+    background: var(--warm-cloud-white);
     z-index: 10000;
     width: 35rem;
     height: 100%;
