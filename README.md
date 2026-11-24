@@ -8,18 +8,18 @@ This is a simple, responsive travel website built using HTML, CSS, and JavaScrip
 <table>
   <tr>
     <td align="center">
-      <img src="https://github.com/Chatur07/Simple_Travel_Website/blob/main/ss/ss1.png" width="600" alt="Homepage Screenshot"/>
+      <img src="/ss/ss1.png" width="600" alt="Homepage Screenshot"/>
     </td>
     <td align="center">
-      <img src="https://github.com/Chatur07/Simple_Travel_Website/blob/main/ss/ss2.png" width="600" alt="Login Page Screenshot"/>
+      <img src="/ss/ss2.png" width="600" alt="Login Page Screenshot"/>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="https://github.com/Chatur07/Simple_Travel_Website/blob/main/ss/ss3.png" width="600" alt="Disease Detection Screenshot"/>
+      <img src="/ss/ss3.png" width="600" alt="Disease Detection Screenshot"/>
     </td>
     <td align="center">
-      <img src="https://github.com/Chatur07/Simple_Travel_Website/blob/main/ss/ss4.png" width="600" alt="Borrow Essentials Screenshot"/>
+      <img src="/main/ss/ss4.png" width="600" alt="Borrow Essentials Screenshot"/>
     </td>
   </tr>
 </table>
