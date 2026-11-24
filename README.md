@@ -19,7 +19,7 @@ This is a simple, responsive travel website built using HTML, CSS, and JavaScrip
       <img src="/ss/ss3.png" width="600" alt="Disease Detection Screenshot"/>
     </td>
     <td align="center">
-      <img src="/main/ss/ss4.png" width="600" alt="Borrow Essentials Screenshot"/>
+      <img src="/ss/ss4.png" width="600" alt="Borrow Essentials Screenshot"/>
     </td>
   </tr>
 </table>
